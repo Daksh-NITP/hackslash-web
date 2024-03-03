@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace'; */
+    font-family: "Roboto Slab", serif;
+    background-color:#f0f8ff
+}
+
+.conatiner{
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    font-family: Hi Melody,cursive;
+    font-family: Roboto Slab,serif;
+    color: black;
+}
+
+
+   .parent{
+    max-width: 1080px;
+    margin: 0 auto;
+    gap: 1.09rem;
+    margin-top: 2rem;
+
+    }
+#header{
+   
+    padding-left: 10rem;
+    cursor: pointer;
+    padding-left: 14px;
+    transition: all 0.5s ease-out 0s;
+    font-weight: 800;
+}
+
+#header:hover{
+    color:  #919191;
+    transform: scale(1.02)
+}
+
+.mainbox1{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    animation: slideup 0.5s ease-in;
+  
+}
+
+
+.mainbox2{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    /* animation-name: box1;
+    animation-duration: 1s; */
+    animation: slideup 0.8s ease-in;
+  
+}
+
+.mainbox3{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    /* animation-name: box1;
+    animation-duration: 1s; */
+    animation: slideup 1.1s ease-in;
+  
+}
+
+.mainbox4{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    /* animation-name: box1;
+    animation-duration: 1s; */
+    animation: slideup 1.4s ease-in;
+  
+}
+
+@keyframes slideup {
+    0% {
+        transform: translateY(10rem);
+        opacity: 0.4;
+    }
+
+    100%{
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+}
+
+.leftbox{
+    width: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 3.56rem;
+}
+
+#ai{
+    font-size: 3.25rem;
+    left: 0px; 
+    max-width: 24.5rem; 
+    font-weight: 30; 
+}
+
+#ai:hover{
+    transform: scale(1.02);
+    box-shadow: 0 .4px .1px rgba(0,0,0,.2);
+}
+
+
+
+#future{
+    font-size: 1.5rem;
+}
+
+.lower{
+    /* padding-right: 19rem; */
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    text-align: end;    
+}
+
+.future{
+    font-weight: 500;
+}
+
+.disturb{
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.disturb:hover{
+    opacity: .6
+}
+
+.innerimage{
+    cursor: pointer;
+}
+
+.innerimage:hover{
+    opacity: 0.6;
+
+}
+
+
+.mainbox{
+    display: flex;
+
+}
+
+.rightbox{
+    height: 100%;
+    transition: all 0.8s linear;
+   
+}
+
+.rightbox:hover{
+    transform: rotateY(180deg);
+}
+
+@media (max-width:980px) {
+
+
+    .div{
+        margin-left: 6rem;
+    }
+
+    .mainbox1{
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: 0 auto;
+        margin-top: 1.2rem;
+        /* margin-left: 7rem; */
+       
+    }
+
+    .mainbox2{
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: 0 auto;
+        margin-top: 1.2rem;
+        /* margin-left: 7rem; */
+       
+    }
+
+    .mainbox3{
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: 0 auto;
+        margin-top: 1.2rem;
+        /* margin-left: 7rem; */
+       
+    }
+
+    .mainbox4{
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: 0 auto;
+        margin-top: 1.2rem;
+        /* margin-left: 7rem; */
+       
+    }
+
+    #header{
+        padding-left: 7rem;
+    }
+    .disturb{
+        color: rgb(0, 0, 255);
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 500px) {
+    /* .rightbox {
+        display:none
+    } */
+
+    .rightboximage{
+        display: block;
+    }
+
+}
+
+.photo2{
+    height: 280px;
+    width: 517px;
+}
+
+.photo3{
+    height: 280px;
+    width: 517px;
+}
+
+.photo4{
+    height: 280px;
+    width: 517px;
+}
+
+
+
+
+/* @keyframes box1 {
+    from{
+        padding-top: 60px;
+        opacity: 0.3;
+    }
+    to{
+        padding-top: 0;
+        opacity: 1;
+    }
+}
+
+#box-1{
+    animation-name: box1;
+    animation-duration: 1s;
+}
+
+#box-2{
+    animation-name: box1;
+    animation-delay: 2s;
+    animation-duration: 1s;
+}
+
+#box-3{
+    animation-name: box1;
+    animation-delay: 2s;
+    animation-duration: 1s;
+}
+
+#box-4{
+    animation-name: box1;
+    animation-delay: 3s;
+    animation-duration: 1s;
+} */
